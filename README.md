@@ -9,10 +9,12 @@ This plugin aims to help in the process of producing dynamic forms that sit on t
 actions update your underlying form without refreshing actual page.
 
 ## Installation:
-Add plugin Dependency :
+Add plugin Dependency : (Grails 2.X)
 ```groovy
 	compile ":modaldynamix:0.12" 
 ```
+
+Grails 3:  https://bintray.com/artifact/download/vahid/maven/modaldynamix-0.13.jar
 
 
 
