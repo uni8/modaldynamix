@@ -1,10 +1,8 @@
 package modaldynamix
 
-import java.util.List;
-
 class ModaldynamixController {
 
-  def grailsApplication
+  //def grailsApplication
   
   /*
    * Controller Action: getTemplate

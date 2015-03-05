@@ -1,9 +1,11 @@
 package modaldynamix
 
+import org.grails.plugins.web.taglib.ApplicationTagLib
+
 
 class ModalDynamixTagLib {
 
-	def grailsApplication
+	//def grailsApplication
 	
 	/*
 	 * This loads in customised bootstrap.css and default bootstrap.js
@@ -375,7 +377,7 @@ class ModalDynamixTagLib {
 		}
 
 		if (!attrs.url) {
-			def g = new org.codehaus.groovy.grails.plugins.web.taglib.ApplicationTagLib()
+            ApplicationTagLib g = new ApplicationTagLib()
 			attrs.url=g.createLink(controller: ''+attrs.iController+'', action: ''+attrs.iAction+'', params:attrs, ,  absolute: 'true')
 		}
 
